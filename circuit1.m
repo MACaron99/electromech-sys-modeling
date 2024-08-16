@@ -25,13 +25,13 @@ F = [0; E1; -E2];
 
 I = M / F;
 
-disp(['I1=', num2str(I(1,1))]);
-disp(['I2=', num2str(I(2,1))]);
-disp(['I3=', num2str(I(3,1))]);
+disp(['I1 = ', num2str(I(1,1))]);
+disp(['I2 = ', num2str(I(2,1))]);
+disp(['I3 = ', num2str(I(3,1))]);
 
 eps = E1 - E2 - Z1 * I(1,1) - Z2 * I(2,1);
 
-disp(['Error calculation eps =', num2str(eps)]);
+disp(['Error calculation eps = ', num2str(eps)]);
 
 I1M = abs(I(1,1));
 I2M = abs(I(2,1));
@@ -41,10 +41,10 @@ phI1 = angle(I(1,1));
 phI2 = angle(I(2,1));
 phI3 = angle(I(3,1));
 
-disp(['I1M=', num2str(I1M)]);
-disp(['I2M=', num2str(I2M)]);
-disp(['I3M=', num2str(I3M)]);
+disp(['I1M = ', num2str(I1M)]);
+disp(['I2M = ', num2str(I2M)]);
+disp(['I3M = ', num2str(I3M)]);
 
-disp(['phI1=', num2str(phI1)]);
-disp(['phI2=', num2str(phI2)]);
-disp(['phI3=', num2str(phI3)]);
+disp(['phI1 = ', num2str(phI1)]);
+disp(['phI2 = ', num2str(phI2)]);
+disp(['phI3 = ', num2str(phI3)]);
