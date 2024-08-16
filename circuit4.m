@@ -1,9 +1,9 @@
 f = 50;
-R1 = input( 'Input value R1 = ' );
-R2 = input( 'Input value R2 = ' );
-R3 = input( 'Input value R3 = ' );
-L = input( 'Input value L = ' );
-C = input( 'Input value C = ' );
+R1 = input('Input value R1 = ');
+R2 = input('Input value R2 = ');
+R3 = input('Input value R3 = ');
+L = input('Input value L = ');
+C = input('Input value C = ');
 
 i(1) = 0;
 Uc(1) = 0;
