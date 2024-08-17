@@ -1,0 +1,47 @@
+# MATLAB generated files
+*.mex*
+*.mat
+*.fig
+*.slx
+*.mdl
+*.mlappinstall
+*.mlpkginstall
+
+# MATLAB Code files
+*.asv
+*.autosave
+
+# MATLAB backup files
+*.bak
+
+# MATLAB App Designer generated files
+*.mlapp
+
+# MATLAB project files
+*.prj
+
+# MATLAB Simulink cache files
+slprj/
+
+# MATLAB Simulink Code Generation files
+codegen/
+
+# MATLAB Simulink Test files
+slt_cache/
+
+# MATLAB temporary files
+*.asv
+*_autosave.m
+*_autosave.mlx
+
+# MATLAB preference directories
+prefs/
+*.prf
+
+# MATLAB Desktop tool files
+*.tmw
+*.mw
+*.mex*
+
+# MATLAB Editor backup files
+*~ 
